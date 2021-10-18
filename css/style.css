@@ -1,0 +1,582 @@
+#HOME, #PORTFOLIO, #PLAYGROUND, #CONTACT, footer {
+    background: whitesmoke;
+
+}
+
+.bg-black{
+    background: whitesmoke !important;
+}
+
+
+.navbar .navbar-brand{
+    margin-left: 1rem;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: .5px;
+    padding: 0;
+    text-transform: uppercase;
+    transition: all-ease-in 0.5;
+    color: white;
+    margin: 1rem;
+}
+
+
+.navbar .navbar-nav .nav-link:hover{
+    background: "transparent";
+    color: #ff7c12cc;
+}
+
+.navbar .navbar-nav .nav-link:hover:after{
+    width: 100%;
+    background: #ff7c12cc;
+    color: #ff7c12cc;
+} 
+
+.navbar .navbar-nav .nav-link::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: transparent;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+
+.smart-scroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .scrolled-down{
+     transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+     transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+
+
+
+  /* home */
+
+/* .main{
+    background: url(GabeBorder-Foothillcropped.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    color: #fff;
+    font-size: 56px;
+    line-height: 1.2em;
+    font-family: 'Gill Sans';
+    font-weight: bold;
+}
+
+.section-btn{
+    margin: 32px 0 0 0;
+    padding: 0;
+
+}
+
+.section-btn a{
+    color: #fff;
+    font-weight: normal;
+    line-height: 44px;
+    perspective: 1000px;
+}
+.section-btn span{
+    position: relative;
+    display: inline-block;
+    font-style: 18px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    padding: 2px 27px;
+    background: #ff7c12cc;
+    border-radius: 1px;
+    transition: transform 0.3s;
+    transform-origin: 50% 0;
+    transform-style: preserve-3d;
+    border-radius: 7.5px;
+ }
+
+ .section-btn a:hover span{
+     color: white;
+ }
+ 
+
+ .main p{
+    font-size: 32px;
+    color: rgba(250, 250, 250, 0.7);
+    font-family: 'Gill Sans';
+}
+
+.main .home-text{
+    z-index: 99;
+} */
+
+/* Second attempt */
+
+/* .hero-container {
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .hero {
+    background: url(GabeBorder-Foothillcropped.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    transition: transform 2s;
+    transform-origin: 10% 0;
+    transform-style: preserve-3d;
+  }
+  
+  .hero:hover {
+    transform: scale(1.1);
+  }
+  
+  .hero-stuff {
+    position: absolute;
+    top: 60vh;
+    left: 30vh;
+  }
+  
+  .hero-stuff .h1 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  
+  a.btn {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: 11px 30px;
+    background-color: #636363;
+    background-image: linear-gradient(to bottom,#636363,#000);
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  a.btn:hover {
+    background-image: linear-gradient(to bottom,#000,#000);
+  } */
+
+
+  /*------------------------ Third Try --------------------*/
+
+/* .home {
+    background-image: url(GabeBorder-Foothillcropped.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero .container {
+    height: 100vh;
+} */
+
+/*------------------- Last Home ---------------------*/
+.hero {background-image: url(/assets/GabeBorder-Foothillcropped.jpg);
+height: 85vh;
+background-size: cover;
+padding-top: 60vh;
+padding-bottom: 30vh;
+/* transition: transform 2s;
+transform-origin: 10% 0;
+transform-style: preserve-3d; */
+}
+
+.hero h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-transform: uppercase; */
+    font-size: 4rem;
+    color: #ff7c12cc;
+    /* text-shadow: 1px 1px 1px #000; */
+}
+
+.hero p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    /* text-shadow: 1px 1px 1px #000; */
+    padding-left: 0.2rem;
+}
+
+.hero a {
+    color: #fff;
+}
+
+.hero a:hover{
+    color: #ff7c12cc;
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    background-color: #ff7c12cc;
+}
+
+
+/* About */
+
+
+#about{
+    position: relative;
+    align-items: center;
+}
+
+#about h3{
+    font-size: 14px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#about h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#project .project-item{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+    /* height: 500px;
+    width: 500px; */
+    object-fit: contain;
+    /* box-shadow: 10px 10px 5px #aaaaaa; */
+    height: fit-content;
+    /* border-radius: 5px; */
+}
+
+#project .project-item .project-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: all ease-in-out 0.4s;
+}
+
+#project .project-item .project-overlay .project-info{
+   padding: 12em 0;
+} 
+
+.project-info h1{
+    color: #fff;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+.project-info h3{
+    color: #d9d9d9;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+#project .project-item:hover .project-overlay{
+    opacity: 1;
+}
+
+.project-item img{
+    transition: all ease-in-out 0.4s;
+}
+
+.project-item:hover img{
+    transform: scale(1.1);
+}
+
+#contact{
+    background: url(/assets/kitchen_gray.jpg) 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+}
+
+#contact form-control{
+    border: none;
+    box-shadow: none;
+    font-size: 18px;font-weight: normal;
+    margin-bottom: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contact .form-control:focus{
+    border-color: #d9d9d9;
+}
+
+#contact input{
+    height: 55px;
+    line-height: 45px;
+}
+
+.social-icon .li{
+    color: #ff7c12cc;
+}
+
+a {
+    color: #ff7c12cc;
+  }
+
+a:hover {
+    color: #ff7c12cc;
+  }
+
+/* Portfolio Page */
+
+#portfolio{
+    position: relative;
+    align-items: center;
+}
+
+#portfolio h1{
+    font-size: 40px;
+    color: #ff7c12cc;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#portfolio h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+  .column img:hover {
+    filter: grayscale(0);
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .column img {
+      filter: grayscale(0) brightness(1);
+    }
+  }
+
+  
+/*Blog*/
+
+.post-preview > a {
+    color: #212529;
+  }
+  .post-preview > a:focus, .post-preview > a:hover {
+    text-decoration: none;
+    color: #0085A1;
+  }
+  .post-preview > a > .post-title {
+    font-size: 1.875rem;
+    margin-top: 1.875rem;
+    margin-bottom: 0.625rem;
+  }
+  .post-preview > a > .post-subtitle {
+    font-weight: 300;
+    margin-bottom: 0.625rem;
+  }
+  .post-preview > .post-meta {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-top: 0;
+    color: #6c757d;
+  }
+  .post-preview > .post-meta > a {
+    text-decoration: none;
+  }
+  @media (min-width: 992px) {
+    .post-preview > a > .post-title {
+      font-size: 2.25rem;
+    }
+  }
+
+  header.masthead {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  header.masthead:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #212529;
+    opacity: 0.5;
+  }
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    color: #fff;
+  }
+  header.masthead .page-heading,
+  header.masthead .site-heading {
+    text-align: center;
+  }
+  header.masthead .page-heading h1, header.masthead .page-heading .h1,
+  header.masthead .site-heading h1,
+  header.masthead .site-heading .h1 {
+    font-size: 3rem;
+  }
+  header.masthead .page-heading .subheading,
+  header.masthead .site-heading .subheading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin-top: 0.625rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+    font-size: 2.25rem;
+  }
+  header.masthead .post-heading .meta,
+  header.masthead .post-heading .subheading {
+    line-height: 1.1;
+    display: block;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.75rem 0 2rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .post-heading .meta {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .post-heading .meta a {
+    color: #fff;
+  }
+  @media (min-width: 992px) {
+    header.masthead {
+      padding-top: 12.5rem;
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .page-heading h1, header.masthead .page-heading .h1,
+  header.masthead .site-heading h1,
+  header.masthead .site-heading .h1 {
+      font-size: 5rem;
+    }
+    header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+      font-size: 3.5rem;
+    }
+    header.masthead .post-heading .subheading {
+      font-size: 1.875rem;
+    }
+  }
+  
+  .section-heading {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 3.75rem;
+  }
+  
+  .caption {
+    font-size: 0.875rem;
+    font-style: italic;
+    display: block;
+    margin: 0;
+    padding: 0.625rem;
+    text-align: center;
+  }
+  
+  .post-preview > a {
+    color: #212529;
+  }
+  .post-preview > a:focus, .post-preview > a:hover {
+    text-decoration: none;
+    color: #0085A1;
+  }
+  .post-preview > a > .post-title {
+    font-size: 1.875rem;
+    margin-top: 1.875rem;
+    margin-bottom: 0.625rem;
+  }
+  .post-preview > a > .post-subtitle {
+    font-weight: 300;
+    margin-bottom: 0.625rem;
+  }
+  .post-preview > .post-meta {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-top: 0;
+    color: #6c757d;
+  }
+  .post-preview > .post-meta > a {
+    text-decoration: none;
+  }
+  @media (min-width: 992px) {
+    .post-preview > a > .post-title {
+      font-size: 2.25rem;
+    }
+  }
+
+
+
