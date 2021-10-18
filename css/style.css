@@ -193,7 +193,7 @@
 } */
 
 /*------------------- Last Home ---------------------*/
-.hero {background-image: url(assets/GabeBorder-Foothillcropped.jpg);
+.hero {background-image: url(assets/gabeborderfoothillcropped.jpg);
 height: 85vh;
 background-size: cover;
 padding-top: 60vh;
@@ -312,7 +312,7 @@ transform-style: preserve-3d; */
 }
 
 #contact{
-    background: url(assets/kitchen_gray.jpg) 50% 0 repeat-y fixed;
+    background: url(assets/kitchengray.jpg) 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center;
     position: relative;
